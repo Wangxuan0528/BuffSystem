@@ -172,15 +172,15 @@ public class BuffMaganer
     {
         return BuffCheckExitsBase(buff);
     }
-    public BuffStateBase DeBuffCheckExits(BuffType.Buff deBuff)
+    public BuffStateBase DeBuffCheckExits(BuffType.DeBuff deBuff)
     {
         return BuffCheckExitsBase(deBuff);
     }
-    public BuffStateBase PerBuffCheckExits(BuffType.Buff perBuff)
+    public BuffStateBase PerBuffCheckExits(BuffType.PerBuff perBuff)
     {
         return BuffCheckExitsBase(perBuff);
     }
-    public BuffStateBase PerDeBuffCheckExits(BuffType.Buff perDeBuff)
+    public BuffStateBase PerDeBuffCheckExits(BuffType.PerDeBuff perDeBuff)
     {
         return BuffCheckExitsBase(perDeBuff);
     }
